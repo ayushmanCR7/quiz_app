@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(152, 120, 38);
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(9, 11, 11);
+    padding: 23px;
+    font-size: large;
+    align-items: center;
+}
+.rright{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+  
+}
+ul{
+    list-style-type: none;
+}
+.quiz{
+    color: rgb(99, 99, 174);
+    font-size: 30px;
+}
+.app{
+    font-size: 30px;
+    color: brown;
+}
+.list button{
+    padding: 3px;
+    border-radius: 23px;
+    background-color: rgb(1, 1, 1);
+    color: rgb(94, 94, 185);
+    font-size: 15px;
+    border: 2px;
+    border-color: black;
+    cursor: pointer;
+}
+.list button a{
+    text-decoration: none;
+    color: rgb(94, 94, 185);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: rgb(241, 241, 241);
+    height: 80%;
+    border-radius: 23px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-size: 43px;
+}
+.game{
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 23px;
+    cursor: pointer;
+}
+:hover.game{
+    background-color: coral;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 23px;
+}
+.head{
+    font-size: 35px;
+    font-weight: bold;
+}
+.line{
+    background-color: black;
+    height: 2px;
+    width: 533px;
+}
+.first{
+    font-weight: bold;
+    font-size: 20px;
+}
+.questions button{
+    display: flex;
+    justify-content: start;
+    padding: 8px;
+    border-radius: 23px;
+    width: 500px; 
+    cursor: pointer; 
+}
+.next{
+   display: none;
+   cursor: pointer;
+
+}
+.better a{
+    text-decoration: none;
+    font-size: 23px;
+}
+
+
